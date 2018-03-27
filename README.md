@@ -9,10 +9,17 @@ That second problem you need to delete old files to free space to still able to 
 
 So, I wrote this script to do that for me.
 
+## Version
+Have to use python2
+
 ## Using
 
 You will need to clone this repo and just execute in your terminal like this:
 
-````bash
-python main.py
-````
+You should enter your token with `""` (i.e. `'xoxo-18xxxxxxx-xxxxxx...'`)
+
+```bash
+$python main.py
+Enter your slack token (If you dont know, check https://api.slack.com/custom-integrations/legacy-tokens):'xoxo-example-input-xxx'
+Please enter days that you want to delete: 
+```
