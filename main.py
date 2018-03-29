@@ -11,7 +11,6 @@ import sys
 from datetime import datetime, timedelta
 
 TOKEN = input('Enter your slack token (If you dont know, check https://api.slack.com/custom-integrations/legacy-tokens):')
-# TOKEN = "xoxp-186994033655-186111874035-327271210018-4c380f056f34cfbc8405e5361a987eb7"
 DAYS = input('Please enter days that you want to delete: ')
 
 date = str(calendar.timegm((datetime.now() + timedelta(- DAYS)).utctimetuple()))
